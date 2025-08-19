@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "microservice kafka",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

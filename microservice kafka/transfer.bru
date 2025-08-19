@@ -1,0 +1,19 @@
+meta {
+  name: transfer
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:51489/transfers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "senderId": "123",
+    "recepientId": "123",
+    "amount": 100
+  }
+}
